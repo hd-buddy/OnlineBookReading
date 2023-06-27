@@ -5,15 +5,14 @@ body {
     display: inline-grid;
     justify-content: center;
     align-items: center;
-    perspective: 1200px;
+    /* perspective: 1200px; */
     /* background-image: linear-gradient(to right,rgb(223, 214, 142),rgb(186, 163, 229)); */
     background-image: radial-gradient(rgba(252, 248, 15, 0.5),rgba(235, 168, 135,0.5));
     background-repeat: no-repeat;
     background-size:cover;
-    width: 100vw;
-    height: 100vh;
+    
   }
-  
+
   .book {
     transform-style: preserve-3d;
     position: right;
